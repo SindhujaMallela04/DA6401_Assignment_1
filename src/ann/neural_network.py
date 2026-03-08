@@ -85,7 +85,8 @@ class NeuralNetwork:
         X = self.layers[-1].forward(X)
 
         self.logits = X
-        return X, softmax(X)
+        return X
+    #, softmax(X)
 
     def backward(self, y_true, y_pred):
         """
@@ -168,7 +169,8 @@ class NeuralNetwork:
             for i in range (0, num_samples, batch_size) :
                 X_batch = X_epoch[i:i + batch_size]
                 y_batch = y_epoch[i:i + batch_size]   
-                logits, y_pred = self.forward(X_batch)
+                logits = self.forward(X_batch)
+                y_pred = softmax(logits)
                 loss = self.loss_func(y_batch, y_pred) 
                 epoch_loss += loss               
                 self.backward(y_batch, y_pred)
@@ -184,7 +186,8 @@ class NeuralNetwork:
         """
         Evaluate the model accuracy.
         """
-        logits, y_pred = self.forward(X)
+        logits = self.forward(X)
+        y_pred = softmax(logits)
         predictions = np.argmax(y_pred, axis = 1)
         true_labels = np.argmax(y, axis = 1)
         accuracy = np.mean(predictions == true_labels)
