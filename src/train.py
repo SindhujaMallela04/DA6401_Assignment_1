@@ -36,7 +36,8 @@ def parse_arguments():
     parser.add_argument('--batch_size', type = int, default = 64)
     parser.add_argument('--learning_rate', type = float, default = 0.001)
     parser.add_argument('--optimizer', type = str, default = 'sgd', choices = ['sgd', 'momentum', 'nag', 'rmsprop'])
-    parser.add_argument('--hidden_layers', type = int, nargs = '+', default = [128, 64, 32, 16])
+    # parser.add_argument('--hidden_layers', type = int, nargs = '+', default = [128, 64, 32, 16])
+    parser.add_argument('--hidden_layers', type = str, default = "128, 64, 32, 16")
     parser.add_argument('--num_layers', type = int, default = None)
     parser.add_argument('--hidden_size', type = int, nargs = '+', default = None)
     parser.add_argument('--num_neurons', type = int, default = 128)
@@ -57,10 +58,10 @@ def main():
 
     if args.hidden_size is not None:
         args.hidden_layers = args.hidden_size
+    elif isinstance(args.hidden_layers, str) :
+        args.hidden_layers = [int(x.strip()) for x in args.hidden_layers.split(",")]
     elif isinstance(args.hidden_layers, list) :
         args.hidden_layers = [int(x) for x in args.hidden_layers]
-    else :
-        args.hidden_layers = [int(x.strip()) for x in args.hidden_layers.split(",")]
 
     wandb.init(project = args.wandb_project, config = vars(args))
 
@@ -148,14 +149,14 @@ def main():
     # wandb.log({"misclassified_examples": table})
 
 
-    # best_weights = model.get_weights()
-    # np.save("best_model.npy", best_weights, allow_pickle = True)
-    # print("Model saved as best_model.npy")
+    best_weights = model.get_weights()
+    np.save("best_model.npy", best_weights, allow_pickle = True)
+    print("Model saved as best_model.npy")
 
-    # config = vars(args)
-    # with open("best_config.json", "w") as f :
-    #     json.dump(config, f, indent = 4)
-    # print("Best config saved as best_config.json")
+    config = vars(args)
+    with open("best_config.json", "w") as f :
+        json.dump(config, f, indent = 4)
+    print("Best config saved as best_config.json")
 
 
 if __name__ == '__main__':
