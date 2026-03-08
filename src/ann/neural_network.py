@@ -16,15 +16,20 @@ class NeuralNetwork:
 
     def __init__(self, cli_args):
         self.args = cli_args
-        if hasattr(self.args, "hidden_layers") :
+        if hasattr(self.args, "hidden_layers") and self.args.hidden_layers is not None :
             hidden_layers = self.args.hidden_layers
-        elif hasattr(self.args, "hidden_size") :
-            hidden_layers = [self.args.hidden_size] * self.args.num_layers
+        elif hasattr(self.args, "hidden_size") and self.args.hidden_size is not None :
+            hidden_layers = self.args.hidden_size
         else :
             hidden_layers = []
+
+        if isinstance(hidden_layers, str) :
+            hidden_layers = [int(x.strip()) for x in hidden_layers.split(",")]
+        elif isinstance(hidden_layers, list) :
+            hidden_layers = [int(x) for x in hidden_layers]
         
-        if len(hidden_layers) > 0 and isinstance(hidden_layers[0], list) :
-            hidden_layers = hidden_layers[0]
+        # if len(hidden_layers) > 0 and isinstance(hidden_layers[0], list) :
+        #     hidden_layers = hidden_layers[0]
         hidden_layers = [int(x) for x in hidden_layers]
         input_size = 784
         self.layers = []
