@@ -20,6 +20,10 @@ class NeuralNetwork:
             hidden_layers = self.args.hidden_layers
         elif hasattr(self.args, "hidden_size") :
             hidden_layers = [self.args.hidden_size] * self.args.num_layers
+        else :
+            hidden_layers = []
+        
+        hidden_layers = [int(x) for x in hidden_layers]
         input_size = 784
         self.layers = []
 
