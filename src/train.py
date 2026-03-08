@@ -141,14 +141,14 @@ def main():
     # wandb.log({"misclassified_examples": table})
 
 
-    # best_weights = model.get_weights()
-    # np.save("best_model.npy", best_weights, allow_pickle = True)
-    # print("Model saved as best_model.npy")
+    best_weights = model.get_weights()
+    np.save("best_model.npy", best_weights, allow_pickle = True)
+    print("Model saved as best_model.npy")
 
-    # config = vars(args)
-    # with open("best_config.json", "w") as f :
-    #     json.dump(config, f, indent = 4)
-    # print("Best config saved as best_config.json")
+    config = vars(args)
+    with open("best_config.json", "w") as f :
+        json.dump(config, f, indent = 4)
+    print("Best config saved as best_config.json")
 
 
 if __name__ == '__main__':
