@@ -31,7 +31,7 @@ class NeuralLayer :
         return self.Z
     
     def backward(self, output_grad) :
-        m = self.input.shape[0]
-        self.grad_W = np.dot(self.input.T, output_grad) / m
-        self.grad_b = np.sum(output_grad, axis = 0) / m
+        # m = self.input.shape[0]
+        self.grad_W = np.dot(self.input.T, output_grad)
+        self.grad_b = np.sum(output_grad, axis = 0)
         return np.dot(output_grad, self.W.T)
