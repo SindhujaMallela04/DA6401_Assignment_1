@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\da6401_assignment_1-main\src\train.py", line 168, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\da6401_assignment_1-main\src\train.py", line 91, in main
+    table.add_data(class_id, images[0], images[1], images[2], images[3], images[4])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\malle\anaconda3\envs\my_conda_env\Lib\site-packages\wandb\sdk\data_types\table_decorators.py", line 42, in wrapper
+    return method(self, *args, **kwargs)
+  File "C:\Users\malle\anaconda3\envs\my_conda_env\Lib\site-packages\wandb\sdk\data_types\table_decorators.py", line 58, in wrapper
+    res = method(self, *args, **kwargs)
+  File "C:\Users\malle\anaconda3\envs\my_conda_env\Lib\site-packages\wandb\sdk\data_types\table.py", line 518, in add_data
+    raise ValueError(
+        f"This table expects {len(self.columns)} columns: {self.columns}, found {len(data)}"
+    )
+ValueError: This table expects 11 columns: ['Class Name', 'Sample 1', 'Sample 2', 'Sample 3', 'Sample 4', 'Sample 5', 'Sample 6', 'Sample 7', 'Sample 8', 'Sample 9', 'Sample 10'], found 6

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\train.py", line 155, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\train.py", line 93, in main
+    model.train(x_train, y_train, args.epochs, args.batch_size)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\ann\neural_network.py", line 158, in train
+    y_pred, logits = self.forward(X)
+                                  ^
+NameError: name 'X' is not defined

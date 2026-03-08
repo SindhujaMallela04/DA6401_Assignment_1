@@ -1,0 +1,11 @@
+{"time":"2026-03-07T19:01:21.0265697+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:01:21.5237628+05:30","level":"INFO","msg":"stream: created new stream","id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:21.5255008+05:30","level":"INFO","msg":"stream: started","id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:21.5261631+05:30","level":"INFO","msg":"handler: started","stream_id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:21.5261631+05:30","level":"INFO","msg":"writer: started","stream_id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:21.5261631+05:30","level":"INFO","msg":"sender: started","stream_id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:37.7442821+05:30","level":"INFO","msg":"stream: closing","id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:39.5182379+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:01:39.8577221+05:30","level":"INFO","msg":"handler: closed","stream_id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:39.8693991+05:30","level":"INFO","msg":"sender: closed","stream_id":"gm1gtgps"}
+{"time":"2026-03-07T19:01:39.8700927+05:30","level":"INFO","msg":"stream: closed","id":"gm1gtgps"}

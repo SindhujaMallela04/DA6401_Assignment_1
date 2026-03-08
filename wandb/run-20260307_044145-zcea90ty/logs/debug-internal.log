@@ -1,0 +1,11 @@
+{"time":"2026-03-07T04:41:47.7940791+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T04:41:48.7022777+05:30","level":"INFO","msg":"stream: created new stream","id":"zcea90ty"}
+{"time":"2026-03-07T04:41:48.7029524+05:30","level":"INFO","msg":"handler: started","stream_id":"zcea90ty"}
+{"time":"2026-03-07T04:41:48.706036+05:30","level":"INFO","msg":"stream: started","id":"zcea90ty"}
+{"time":"2026-03-07T04:41:48.706036+05:30","level":"INFO","msg":"writer: started","stream_id":"zcea90ty"}
+{"time":"2026-03-07T04:41:48.706036+05:30","level":"INFO","msg":"sender: started","stream_id":"zcea90ty"}
+{"time":"2026-03-07T04:42:09.7679628+05:30","level":"INFO","msg":"stream: closing","id":"zcea90ty"}
+{"time":"2026-03-07T04:42:11.4201593+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T04:42:11.7432577+05:30","level":"INFO","msg":"handler: closed","stream_id":"zcea90ty"}
+{"time":"2026-03-07T04:42:11.7437689+05:30","level":"INFO","msg":"sender: closed","stream_id":"zcea90ty"}
+{"time":"2026-03-07T04:42:11.7437689+05:30","level":"INFO","msg":"stream: closed","id":"zcea90ty"}

@@ -1,0 +1,2899 @@
+2026-03-07 04:12:28 INFO Running runs: []
+2026-03-07 04:12:29 INFO Agent received command: run
+2026-03-07 04:12:29 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: [128]
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:12:29 INFO About to run command: python  --activation=relu --batch_size=32 --hidden_layers=[128] --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:12:34 INFO Running runs: ['ncgntfe2']
+2026-03-07 04:12:34 INFO Cleaning up finished run: ncgntfe2
+2026-03-07 04:12:35 INFO Agent received command: run
+2026-03-07 04:12:35 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: [128, 64, 32, 16]
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:12:35 INFO About to run command: python  --activation=tanh --batch_size=128 "--hidden_layers=[128, 64, 32, 16]" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:12:40 INFO Running runs: ['x9ucv8jj']
+2026-03-07 04:12:40 INFO Cleaning up finished run: x9ucv8jj
+2026-03-07 04:12:41 INFO Agent received command: run
+2026-03-07 04:12:41 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: [128, 64, 32, 16]
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:12:41 INFO About to run command: python  --activation=tanh --batch_size=128 "--hidden_layers=[128, 64, 32, 16]" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:12:46 INFO Running runs: ['opftk064']
+2026-03-07 04:12:46 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 04:12:46 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 04:16:51 INFO Running runs: []
+2026-03-07 04:16:52 INFO Agent received command: run
+2026-03-07 04:16:52 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:16:52 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:16:57 INFO Running runs: ['2uhzk1tw']
+2026-03-07 04:17:45 INFO Cleaning up finished run: 2uhzk1tw
+2026-03-07 04:17:46 INFO Agent received command: run
+2026-03-07 04:17:46 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:17:46 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:17:51 INFO Running runs: ['1367712t']
+2026-03-07 04:17:51 INFO Cleaning up finished run: 1367712t
+2026-03-07 04:17:52 INFO Agent received command: run
+2026-03-07 04:17:52 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:17:52 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:17:57 INFO Running runs: ['1fehd7uo']
+2026-03-07 04:18:39 INFO Cleaning up finished run: 1fehd7uo
+2026-03-07 04:18:41 INFO Agent received command: run
+2026-03-07 04:18:41 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:18:41 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:18:46 INFO Running runs: ['czwtm128']
+2026-03-07 04:18:46 INFO Cleaning up finished run: czwtm128
+2026-03-07 04:18:47 INFO Agent received command: run
+2026-03-07 04:18:47 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:18:47 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:18:52 INFO Running runs: ['dx6rbpuy']
+2026-03-07 04:18:52 INFO Cleaning up finished run: dx6rbpuy
+2026-03-07 04:18:53 INFO Agent received command: run
+2026-03-07 04:18:53 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:18:53 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 04:18:58 INFO Running runs: ['1eq7zyt9']
+2026-03-07 04:18:58 INFO Cleaning up finished run: 1eq7zyt9
+2026-03-07 04:18:59 INFO Agent received command: run
+2026-03-07 04:18:59 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:18:59 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 04:19:04 INFO Running runs: ['0gv1ngdw']
+2026-03-07 04:19:04 INFO Cleaning up finished run: 0gv1ngdw
+2026-03-07 04:19:05 INFO Agent received command: run
+2026-03-07 04:19:05 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:19:05 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:19:10 INFO Running runs: ['9kawprvc']
+2026-03-07 04:19:42 INFO Cleaning up finished run: 9kawprvc
+2026-03-07 04:19:43 INFO Agent received command: run
+2026-03-07 04:19:43 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:19:43 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:19:48 INFO Running runs: ['za3zlkmg']
+2026-03-07 04:19:48 INFO Cleaning up finished run: za3zlkmg
+2026-03-07 04:19:49 INFO Agent received command: run
+2026-03-07 04:19:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:19:49 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:19:54 INFO Running runs: ['2ft5i453']
+2026-03-07 04:19:54 INFO Cleaning up finished run: 2ft5i453
+2026-03-07 04:19:57 INFO Agent received command: run
+2026-03-07 04:19:57 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:19:57 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 04:20:02 INFO Running runs: ['uhfpxczm']
+2026-03-07 04:20:02 INFO Cleaning up finished run: uhfpxczm
+2026-03-07 04:20:03 INFO Agent received command: run
+2026-03-07 04:20:03 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:20:03 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:20:08 INFO Running runs: ['7mzngefg']
+2026-03-07 04:20:08 INFO Cleaning up finished run: 7mzngefg
+2026-03-07 04:20:09 INFO Agent received command: run
+2026-03-07 04:20:09 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:20:09 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:20:14 INFO Running runs: ['045haj85']
+2026-03-07 04:21:02 INFO Cleaning up finished run: 045haj85
+2026-03-07 04:21:03 INFO Agent received command: run
+2026-03-07 04:21:03 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:21:03 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:21:08 INFO Running runs: ['t7wvskcl']
+2026-03-07 04:21:35 INFO Cleaning up finished run: t7wvskcl
+2026-03-07 04:21:36 INFO Agent received command: run
+2026-03-07 04:21:36 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:21:36 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:21:41 INFO Running runs: ['f2wppt9t']
+2026-03-07 04:21:41 INFO Cleaning up finished run: f2wppt9t
+2026-03-07 04:21:43 INFO Agent received command: run
+2026-03-07 04:21:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:21:43 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 04:21:48 INFO Running runs: ['nsv3bwxv']
+2026-03-07 04:21:48 INFO Cleaning up finished run: nsv3bwxv
+2026-03-07 04:21:49 INFO Agent received command: run
+2026-03-07 04:21:49 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:21:49 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:21:54 INFO Running runs: ['tzhe2l15']
+2026-03-07 04:22:26 INFO Cleaning up finished run: tzhe2l15
+2026-03-07 04:22:27 INFO Agent received command: run
+2026-03-07 04:22:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:22:27 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 04:22:32 INFO Running runs: ['thw6d6qv']
+2026-03-07 04:22:32 INFO Cleaning up finished run: thw6d6qv
+2026-03-07 04:22:33 INFO Agent received command: run
+2026-03-07 04:22:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:22:33 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:22:38 INFO Running runs: ['1ixygbli']
+2026-03-07 04:22:38 INFO Cleaning up finished run: 1ixygbli
+2026-03-07 04:22:39 INFO Agent received command: run
+2026-03-07 04:22:39 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:22:39 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:22:44 INFO Running runs: ['eb603dqu']
+2026-03-07 04:23:11 INFO Cleaning up finished run: eb603dqu
+2026-03-07 04:23:13 INFO Agent received command: run
+2026-03-07 04:23:13 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:23:13 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:23:18 INFO Running runs: ['4auc5bi4']
+2026-03-07 04:23:18 INFO Cleaning up finished run: 4auc5bi4
+2026-03-07 04:23:19 INFO Agent received command: run
+2026-03-07 04:23:19 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:23:19 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:23:24 INFO Running runs: ['obl4bjey']
+2026-03-07 04:23:24 INFO Cleaning up finished run: obl4bjey
+2026-03-07 04:23:25 INFO Agent received command: run
+2026-03-07 04:23:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:23:25 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:23:30 INFO Running runs: ['6v2ynwy0']
+2026-03-07 04:23:30 INFO Cleaning up finished run: 6v2ynwy0
+2026-03-07 04:23:31 INFO Agent received command: run
+2026-03-07 04:23:31 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:23:31 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:23:36 INFO Running runs: ['22xng8bf']
+2026-03-07 04:23:36 INFO Cleaning up finished run: 22xng8bf
+2026-03-07 04:23:37 INFO Agent received command: run
+2026-03-07 04:23:37 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:23:37 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:23:42 INFO Running runs: ['8lxgh4r1']
+2026-03-07 04:23:42 INFO Cleaning up finished run: 8lxgh4r1
+2026-03-07 04:23:43 INFO Agent received command: run
+2026-03-07 04:23:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:23:43 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:23:48 INFO Running runs: ['yxar7t5r']
+2026-03-07 04:23:48 INFO Cleaning up finished run: yxar7t5r
+2026-03-07 04:23:49 INFO Agent received command: run
+2026-03-07 04:23:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:23:49 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:23:54 INFO Running runs: ['qwdi8377']
+2026-03-07 04:23:54 INFO Cleaning up finished run: qwdi8377
+2026-03-07 04:23:55 INFO Agent received command: run
+2026-03-07 04:23:55 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:23:55 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:24:00 INFO Running runs: ['svzbstin']
+2026-03-07 04:24:37 INFO Cleaning up finished run: svzbstin
+2026-03-07 04:24:38 INFO Agent received command: run
+2026-03-07 04:24:38 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:24:38 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:24:43 INFO Running runs: ['pow5spl5']
+2026-03-07 04:24:43 INFO Cleaning up finished run: pow5spl5
+2026-03-07 04:24:44 INFO Agent received command: run
+2026-03-07 04:24:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:24:44 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:24:49 INFO Running runs: ['xs1kjyr4']
+2026-03-07 04:24:49 INFO Cleaning up finished run: xs1kjyr4
+2026-03-07 04:24:49 INFO Agent received command: run
+2026-03-07 04:24:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:24:49 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 04:24:54 INFO Running runs: ['aygkjenl']
+2026-03-07 04:24:54 INFO Cleaning up finished run: aygkjenl
+2026-03-07 04:24:55 INFO Agent received command: run
+2026-03-07 04:24:55 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:24:55 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:25:00 INFO Running runs: ['dx62l60a']
+2026-03-07 04:25:00 INFO Cleaning up finished run: dx62l60a
+2026-03-07 04:25:02 INFO Agent received command: run
+2026-03-07 04:25:02 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:25:02 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:25:07 INFO Running runs: ['w8l8bwbn']
+2026-03-07 04:25:07 INFO Cleaning up finished run: w8l8bwbn
+2026-03-07 04:25:08 INFO Agent received command: run
+2026-03-07 04:25:08 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:25:08 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:25:13 INFO Running runs: ['if8oet4f']
+2026-03-07 04:25:13 INFO Cleaning up finished run: if8oet4f
+2026-03-07 04:25:14 INFO Agent received command: run
+2026-03-07 04:25:14 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:25:14 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:25:19 INFO Running runs: ['b7de3yti']
+2026-03-07 04:26:08 INFO Cleaning up finished run: b7de3yti
+2026-03-07 04:26:09 INFO Agent received command: run
+2026-03-07 04:26:09 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:26:09 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:26:14 INFO Running runs: ['s6pjxemj']
+2026-03-07 04:26:14 INFO Cleaning up finished run: s6pjxemj
+2026-03-07 04:26:15 INFO Agent received command: run
+2026-03-07 04:26:15 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:26:15 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:26:20 INFO Running runs: ['ztlvem46']
+2026-03-07 04:26:20 INFO Cleaning up finished run: ztlvem46
+2026-03-07 04:26:21 INFO Agent received command: run
+2026-03-07 04:26:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:26:21 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:26:26 INFO Running runs: ['p9jinr48']
+2026-03-07 04:26:26 INFO Cleaning up finished run: p9jinr48
+2026-03-07 04:26:27 INFO Agent received command: run
+2026-03-07 04:26:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:26:27 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:26:32 INFO Running runs: ['zmenv85x']
+2026-03-07 04:26:32 INFO Cleaning up finished run: zmenv85x
+2026-03-07 04:26:33 INFO Agent received command: run
+2026-03-07 04:26:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:26:33 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:26:38 INFO Running runs: ['aa2uzndh']
+2026-03-07 04:26:38 INFO Cleaning up finished run: aa2uzndh
+2026-03-07 04:26:39 INFO Agent received command: run
+2026-03-07 04:26:39 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:26:39 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:26:44 INFO Running runs: ['3s38ftmd']
+2026-03-07 04:26:44 INFO Cleaning up finished run: 3s38ftmd
+2026-03-07 04:26:45 INFO Agent received command: run
+2026-03-07 04:26:45 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:26:45 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:26:50 INFO Running runs: ['o3mqsthn']
+2026-03-07 04:26:50 INFO Cleaning up finished run: o3mqsthn
+2026-03-07 04:26:51 INFO Agent received command: run
+2026-03-07 04:26:51 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:26:51 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:26:56 INFO Running runs: ['adtp6643']
+2026-03-07 04:26:56 INFO Cleaning up finished run: adtp6643
+2026-03-07 04:26:57 INFO Agent received command: run
+2026-03-07 04:26:57 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:26:57 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:27:02 INFO Running runs: ['rl8l0ahy']
+2026-03-07 04:27:02 INFO Cleaning up finished run: rl8l0ahy
+2026-03-07 04:27:03 INFO Agent received command: run
+2026-03-07 04:27:03 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:27:03 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:27:08 INFO Running runs: ['70ho2sy2']
+2026-03-07 04:27:08 INFO Cleaning up finished run: 70ho2sy2
+2026-03-07 04:27:09 INFO Agent received command: run
+2026-03-07 04:27:09 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:27:09 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:27:14 INFO Running runs: ['g8i2b1vz']
+2026-03-07 04:27:14 INFO Cleaning up finished run: g8i2b1vz
+2026-03-07 04:27:15 INFO Agent received command: run
+2026-03-07 04:27:15 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:27:15 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:27:20 INFO Running runs: ['eao412ub']
+2026-03-07 04:27:20 INFO Cleaning up finished run: eao412ub
+2026-03-07 04:27:21 INFO Agent received command: run
+2026-03-07 04:27:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:27:21 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 04:27:26 INFO Running runs: ['4xvy3vau']
+2026-03-07 04:27:26 INFO Cleaning up finished run: 4xvy3vau
+2026-03-07 04:27:27 INFO Agent received command: run
+2026-03-07 04:27:27 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:27:27 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:27:32 INFO Running runs: ['hwuv3v3e']
+2026-03-07 04:27:32 INFO Cleaning up finished run: hwuv3v3e
+2026-03-07 04:27:33 INFO Agent received command: run
+2026-03-07 04:27:33 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:27:33 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:27:38 INFO Running runs: ['axwqkjwg']
+2026-03-07 04:27:38 INFO Cleaning up finished run: axwqkjwg
+2026-03-07 04:27:39 INFO Agent received command: run
+2026-03-07 04:27:39 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:27:39 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:27:44 INFO Running runs: ['dz7iup78']
+2026-03-07 04:27:44 INFO Cleaning up finished run: dz7iup78
+2026-03-07 04:27:45 INFO Agent received command: run
+2026-03-07 04:27:45 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:27:45 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:27:50 INFO Running runs: ['hwl3uvr6']
+2026-03-07 04:27:50 INFO Cleaning up finished run: hwl3uvr6
+2026-03-07 04:27:51 INFO Agent received command: run
+2026-03-07 04:27:51 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:27:51 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:27:56 INFO Running runs: ['2wa4vlgd']
+2026-03-07 04:28:28 INFO Cleaning up finished run: 2wa4vlgd
+2026-03-07 04:28:29 INFO Agent received command: run
+2026-03-07 04:28:29 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:28:29 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:28:34 INFO Running runs: ['ym00crul']
+2026-03-07 04:29:06 INFO Cleaning up finished run: ym00crul
+2026-03-07 04:29:07 INFO Agent received command: run
+2026-03-07 04:29:07 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:29:07 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 04:29:12 INFO Running runs: ['728f7c6n']
+2026-03-07 04:29:12 INFO Cleaning up finished run: 728f7c6n
+2026-03-07 04:29:14 INFO Agent received command: run
+2026-03-07 04:29:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:29:14 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:29:19 INFO Running runs: ['5s4roc4a']
+2026-03-07 04:29:19 INFO Cleaning up finished run: 5s4roc4a
+2026-03-07 04:29:20 INFO Agent received command: run
+2026-03-07 04:29:20 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:29:20 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:29:25 INFO Running runs: ['hmitev5w']
+2026-03-07 04:29:57 INFO Cleaning up finished run: hmitev5w
+2026-03-07 04:29:58 INFO Agent received command: run
+2026-03-07 04:29:58 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:29:58 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 04:30:03 INFO Running runs: ['1yp84nkx']
+2026-03-07 04:30:57 INFO Cleaning up finished run: 1yp84nkx
+2026-03-07 04:30:58 INFO Agent received command: run
+2026-03-07 04:30:58 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:30:58 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 04:31:03 INFO Running runs: ['ss9tyfd8']
+2026-03-07 04:31:03 INFO Cleaning up finished run: ss9tyfd8
+2026-03-07 04:31:04 INFO Agent received command: run
+2026-03-07 04:31:04 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:31:04 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 04:31:09 INFO Running runs: ['hkz1vsno']
+2026-03-07 04:31:09 INFO Cleaning up finished run: hkz1vsno
+2026-03-07 04:31:11 INFO Agent received command: run
+2026-03-07 04:31:11 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:31:11 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 04:31:16 INFO Running runs: ['gnkkzi2r']
+2026-03-07 04:31:16 INFO Cleaning up finished run: gnkkzi2r
+2026-03-07 04:31:17 INFO Agent received command: run
+2026-03-07 04:31:17 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:31:17 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:31:22 INFO Running runs: ['hnszys6u']
+2026-03-07 04:32:00 INFO Cleaning up finished run: hnszys6u
+2026-03-07 04:32:01 INFO Agent received command: run
+2026-03-07 04:32:01 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:32:02 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:32:07 INFO Running runs: ['zsnb6rll']
+2026-03-07 04:32:07 INFO Cleaning up finished run: zsnb6rll
+2026-03-07 04:32:07 INFO Agent received command: run
+2026-03-07 04:32:08 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:32:08 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:32:13 INFO Running runs: ['nvck8ayw']
+2026-03-07 04:32:13 INFO Cleaning up finished run: nvck8ayw
+2026-03-07 04:32:14 INFO Agent received command: run
+2026-03-07 04:32:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:32:14 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:32:19 INFO Running runs: ['v4u0322f']
+2026-03-07 04:32:19 INFO Cleaning up finished run: v4u0322f
+2026-03-07 04:32:20 INFO Agent received command: run
+2026-03-07 04:32:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:32:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:32:25 INFO Running runs: ['4742eow7']
+2026-03-07 04:33:08 INFO Cleaning up finished run: 4742eow7
+2026-03-07 04:33:09 INFO Agent received command: run
+2026-03-07 04:33:09 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:33:09 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:33:14 INFO Running runs: ['wvpj7rur']
+2026-03-07 04:33:14 INFO Cleaning up finished run: wvpj7rur
+2026-03-07 04:33:14 INFO Agent received command: run
+2026-03-07 04:33:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:33:14 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 04:33:19 INFO Running runs: ['9wgj1kli']
+2026-03-07 04:33:57 INFO Cleaning up finished run: 9wgj1kli
+2026-03-07 04:33:57 INFO Agent received command: run
+2026-03-07 04:33:57 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:33:57 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:34:02 INFO Running runs: ['mub6uust']
+2026-03-07 04:34:02 INFO Cleaning up finished run: mub6uust
+2026-03-07 04:34:03 INFO Agent received command: run
+2026-03-07 04:34:03 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:34:03 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:34:08 INFO Running runs: ['9ywpzh9t']
+2026-03-07 04:34:53 INFO Cleaning up finished run: 9ywpzh9t
+2026-03-07 04:34:58 INFO Agent received command: run
+2026-03-07 04:34:58 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:34:58 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:35:03 INFO Running runs: ['bbo1srcx']
+2026-03-07 04:35:03 INFO Cleaning up finished run: bbo1srcx
+2026-03-07 04:35:05 INFO Agent received command: run
+2026-03-07 04:35:05 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:35:05 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:35:10 INFO Running runs: ['k7m9v2ya']
+2026-03-07 04:35:10 INFO Cleaning up finished run: k7m9v2ya
+2026-03-07 04:35:16 INFO Agent received command: run
+2026-03-07 04:35:16 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:35:16 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:35:21 INFO Running runs: ['ueljq13z']
+2026-03-07 04:35:21 INFO Cleaning up finished run: ueljq13z
+2026-03-07 04:35:24 INFO Agent received command: run
+2026-03-07 04:35:24 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:35:24 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:35:29 INFO Running runs: ['9obpx3fn']
+2026-03-07 04:35:29 INFO Cleaning up finished run: 9obpx3fn
+2026-03-07 04:35:31 INFO Agent received command: run
+2026-03-07 04:35:31 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:35:31 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:35:36 INFO Running runs: ['az886y3e']
+2026-03-07 04:35:36 INFO Cleaning up finished run: az886y3e
+2026-03-07 04:35:37 INFO Agent received command: run
+2026-03-07 04:35:37 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:35:37 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:35:42 INFO Running runs: ['qhsc3cit']
+2026-03-07 04:35:42 INFO Cleaning up finished run: qhsc3cit
+2026-03-07 04:35:43 INFO Agent received command: run
+2026-03-07 04:35:43 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:35:43 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 04:35:48 INFO Running runs: ['fm9pqyhm']
+2026-03-07 04:35:48 INFO Cleaning up finished run: fm9pqyhm
+2026-03-07 04:35:49 INFO Agent received command: run
+2026-03-07 04:35:49 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:35:49 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:35:54 INFO Running runs: ['t72i6rrh']
+2026-03-07 04:35:54 INFO Cleaning up finished run: t72i6rrh
+2026-03-07 04:35:56 INFO Agent received command: run
+2026-03-07 04:35:56 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:35:56 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:36:01 INFO Running runs: ['jeu99hk1']
+2026-03-07 04:36:43 INFO Cleaning up finished run: jeu99hk1
+2026-03-07 04:36:44 INFO Agent received command: run
+2026-03-07 04:36:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:36:44 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 04:36:49 INFO Running runs: ['0k60ktbv']
+2026-03-07 04:36:49 INFO Cleaning up finished run: 0k60ktbv
+2026-03-07 04:36:51 INFO Agent received command: run
+2026-03-07 04:36:51 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:36:51 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:36:56 INFO Running runs: ['cszzyd82']
+2026-03-07 04:36:56 INFO Cleaning up finished run: cszzyd82
+2026-03-07 04:36:57 INFO Agent received command: run
+2026-03-07 04:36:57 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:36:57 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:37:02 INFO Running runs: ['w9e3yyxb']
+2026-03-07 04:37:02 INFO Cleaning up finished run: w9e3yyxb
+2026-03-07 04:37:04 INFO Agent received command: run
+2026-03-07 04:37:04 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:37:04 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 04:37:09 INFO Running runs: ['2j0bjvxl']
+2026-03-07 04:37:41 INFO Cleaning up finished run: 2j0bjvxl
+2026-03-07 04:37:42 INFO Agent received command: run
+2026-03-07 04:37:42 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:37:42 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:37:47 INFO Running runs: ['m2c6fjo2']
+2026-03-07 04:37:47 INFO Cleaning up finished run: m2c6fjo2
+2026-03-07 04:37:48 INFO Agent received command: run
+2026-03-07 04:37:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:37:48 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 04:37:53 INFO Running runs: ['q62vs127']
+2026-03-07 04:38:41 INFO Cleaning up finished run: q62vs127
+2026-03-07 04:38:42 INFO Agent received command: run
+2026-03-07 04:38:42 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:38:42 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:38:47 INFO Running runs: ['6ipxil6d']
+2026-03-07 04:38:47 INFO Cleaning up finished run: 6ipxil6d
+2026-03-07 04:38:48 INFO Agent received command: run
+2026-03-07 04:38:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:38:48 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:38:53 INFO Running runs: ['fox69f8h']
+2026-03-07 04:38:53 INFO Cleaning up finished run: fox69f8h
+2026-03-07 04:38:54 INFO Agent received command: run
+2026-03-07 04:38:54 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:38:54 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:38:59 INFO Running runs: ['2ikpubn8']
+2026-03-07 04:38:59 INFO Cleaning up finished run: 2ikpubn8
+2026-03-07 04:39:00 INFO Agent received command: run
+2026-03-07 04:39:00 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:39:00 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:39:05 INFO Running runs: ['azmhwubx']
+2026-03-07 04:39:05 INFO Cleaning up finished run: azmhwubx
+2026-03-07 04:39:06 INFO Agent received command: run
+2026-03-07 04:39:06 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:39:06 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:39:11 INFO Running runs: ['ptw7466v']
+2026-03-07 04:39:11 INFO Cleaning up finished run: ptw7466v
+2026-03-07 04:39:12 INFO Agent received command: run
+2026-03-07 04:39:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:39:12 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:39:17 INFO Running runs: ['n58y4eqw']
+2026-03-07 04:39:17 INFO Cleaning up finished run: n58y4eqw
+2026-03-07 04:39:18 INFO Agent received command: run
+2026-03-07 04:39:18 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:39:18 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:39:23 INFO Running runs: ['e6lmzktd']
+2026-03-07 04:39:50 INFO Cleaning up finished run: e6lmzktd
+2026-03-07 04:39:51 INFO Agent received command: run
+2026-03-07 04:39:51 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:39:51 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:39:56 INFO Running runs: ['vmlrajlj']
+2026-03-07 04:39:56 INFO Cleaning up finished run: vmlrajlj
+2026-03-07 04:39:57 INFO Agent received command: run
+2026-03-07 04:39:57 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:39:57 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:40:02 INFO Running runs: ['85o5j2qt']
+2026-03-07 04:40:02 INFO Cleaning up finished run: 85o5j2qt
+2026-03-07 04:40:03 INFO Agent received command: run
+2026-03-07 04:40:03 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:40:03 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:40:08 INFO Running runs: ['cn4zpmt8']
+2026-03-07 04:40:08 INFO Cleaning up finished run: cn4zpmt8
+2026-03-07 04:40:08 INFO Agent received command: run
+2026-03-07 04:40:08 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:40:08 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:40:13 INFO Running runs: ['u6goz668']
+2026-03-07 04:40:13 INFO Cleaning up finished run: u6goz668
+2026-03-07 04:40:14 INFO Agent received command: run
+2026-03-07 04:40:14 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:40:14 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 04:40:19 INFO Running runs: ['b5g9kyre']
+2026-03-07 04:40:19 INFO Cleaning up finished run: b5g9kyre
+2026-03-07 04:40:20 INFO Agent received command: run
+2026-03-07 04:40:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:40:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:40:25 INFO Running runs: ['0kmfyhkn']
+2026-03-07 04:40:25 INFO Cleaning up finished run: 0kmfyhkn
+2026-03-07 04:40:25 INFO Agent received command: run
+2026-03-07 04:40:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:40:25 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:40:30 INFO Running runs: ['84in5fx3']
+2026-03-07 04:41:02 INFO Cleaning up finished run: 84in5fx3
+2026-03-07 04:41:03 INFO Agent received command: run
+2026-03-07 04:41:03 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:41:03 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:41:08 INFO Running runs: ['v6k2l3il']
+2026-03-07 04:41:08 INFO Cleaning up finished run: v6k2l3il
+2026-03-07 04:41:09 INFO Agent received command: run
+2026-03-07 04:41:09 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:41:09 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 04:41:14 INFO Running runs: ['7kogqm4r']
+2026-03-07 04:41:14 INFO Cleaning up finished run: 7kogqm4r
+2026-03-07 04:41:14 INFO Agent received command: run
+2026-03-07 04:41:14 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:41:14 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:41:19 INFO Running runs: ['mz7dap1p']
+2026-03-07 04:41:19 INFO Cleaning up finished run: mz7dap1p
+2026-03-07 04:41:20 INFO Agent received command: run
+2026-03-07 04:41:20 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:41:20 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 04:41:25 INFO Running runs: ['ry2sbbqk']
+2026-03-07 04:41:25 INFO Cleaning up finished run: ry2sbbqk
+2026-03-07 04:41:26 INFO Agent received command: run
+2026-03-07 04:41:26 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:41:26 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:41:31 INFO Running runs: ['ebuatr41']
+2026-03-07 04:41:31 INFO Cleaning up finished run: ebuatr41
+2026-03-07 04:41:31 INFO Agent received command: run
+2026-03-07 04:41:31 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:41:31 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 04:41:36 INFO Running runs: ['dl40df8b']
+2026-03-07 04:41:36 INFO Cleaning up finished run: dl40df8b
+2026-03-07 04:41:37 INFO Agent received command: run
+2026-03-07 04:41:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:41:37 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:41:42 INFO Running runs: ['gdyzkmpy']
+2026-03-07 04:41:42 INFO Cleaning up finished run: gdyzkmpy
+2026-03-07 04:41:43 INFO Agent received command: run
+2026-03-07 04:41:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:41:43 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:41:48 INFO Running runs: ['zcea90ty']
+2026-03-07 04:42:14 INFO Cleaning up finished run: zcea90ty
+2026-03-07 04:42:15 INFO Agent received command: run
+2026-03-07 04:42:15 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:42:15 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:42:20 INFO Running runs: ['hfglvyot']
+2026-03-07 04:42:20 INFO Cleaning up finished run: hfglvyot
+2026-03-07 04:42:20 INFO Agent received command: run
+2026-03-07 04:42:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:42:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:42:25 INFO Running runs: ['ux5cmda0']
+2026-03-07 04:42:25 INFO Cleaning up finished run: ux5cmda0
+2026-03-07 04:42:26 INFO Agent received command: run
+2026-03-07 04:42:26 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:42:26 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:42:31 INFO Running runs: ['678lh1v8']
+2026-03-07 04:43:19 INFO Cleaning up finished run: 678lh1v8
+2026-03-07 04:43:20 INFO Agent received command: run
+2026-03-07 04:43:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 04:43:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 04:43:25 INFO Running runs: ['w84lq3p7']
+2026-03-07 04:43:25 INFO Cleaning up finished run: w84lq3p7
+2026-03-07 04:43:26 INFO Agent received command: run
+2026-03-07 04:43:26 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:43:26 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32,16 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:43:31 INFO Running runs: ['q9n17v2n']
+2026-03-07 04:43:31 INFO Cleaning up finished run: q9n17v2n
+2026-03-07 04:43:32 INFO Agent received command: run
+2026-03-07 04:43:32 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 04:43:32 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 04:43:37 INFO Running runs: ['3vtd5izn']
+2026-03-07 04:45:02 INFO Cleaning up finished run: 3vtd5izn
+2026-03-07 04:45:03 INFO Agent received command: run
+2026-03-07 04:45:03 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 04:45:03 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 04:45:08 INFO Running runs: ['gs872sz9']
+2026-03-07 04:45:08 INFO Cleaning up finished run: gs872sz9
+2026-03-07 04:45:09 INFO Agent received command: run
+2026-03-07 04:45:09 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:45:09 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:45:14 INFO Running runs: ['xkz5gld4']
+2026-03-07 04:45:14 INFO Cleaning up finished run: xkz5gld4
+2026-03-07 04:45:15 INFO Agent received command: run
+2026-03-07 04:45:15 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:45:15 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:45:20 INFO Running runs: ['evj5tyhb']
+2026-03-07 04:45:58 INFO Cleaning up finished run: evj5tyhb
+2026-03-07 04:45:59 INFO Agent received command: run
+2026-03-07 04:45:59 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 04:45:59 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 04:46:04 INFO Running runs: ['c831aj04']
+2026-03-07 04:46:04 INFO Cleaning up finished run: c831aj04
+2026-03-07 04:46:05 INFO Agent received command: run
+2026-03-07 04:46:05 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:46:05 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:46:10 INFO Running runs: ['z1oy58vj']
+2026-03-07 04:46:10 INFO Cleaning up finished run: z1oy58vj
+2026-03-07 04:46:11 INFO Agent received command: run
+2026-03-07 04:46:11 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:46:11 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:46:16 INFO Running runs: ['cic2x6fx']
+2026-03-07 04:46:16 INFO Cleaning up finished run: cic2x6fx
+2026-03-07 04:46:17 INFO Agent received command: run
+2026-03-07 04:46:17 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 04:46:17 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 04:46:22 INFO Running runs: ['s9rgs6vn']
+2026-03-07 04:46:22 INFO Cleaning up finished run: s9rgs6vn
+2026-03-07 04:46:24 INFO Agent received command: run
+2026-03-07 04:46:24 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:46:24 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64 --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:46:29 INFO Running runs: ['itmjdok3']
+2026-03-07 04:46:29 INFO Cleaning up finished run: itmjdok3
+2026-03-07 04:46:30 INFO Agent received command: run
+2026-03-07 04:46:30 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 04:46:30 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 04:46:35 INFO Running runs: ['mg92fh2a']
+2026-03-07 04:46:35 INFO Cleaning up finished run: mg92fh2a
+2026-03-07 04:46:36 INFO Agent received command: run
+2026-03-07 04:46:36 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:46:36 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:46:41 INFO Running runs: ['mq6ihvsy']
+2026-03-07 04:46:41 INFO Cleaning up finished run: mq6ihvsy
+2026-03-07 04:46:42 INFO Agent received command: run
+2026-03-07 04:46:42 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:46:42 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 04:46:48 INFO Running runs: ['un4quso1']
+2026-03-07 04:46:48 INFO Cleaning up finished run: un4quso1
+2026-03-07 04:46:48 INFO Agent received command: run
+2026-03-07 04:46:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 04:46:48 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 04:46:53 INFO Running runs: ['pz658ee5']
+2026-03-07 04:46:53 INFO Cleaning up finished run: pz658ee5
+2026-03-07 04:46:54 INFO Agent received command: run
+2026-03-07 04:46:54 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 04:46:54 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 04:46:59 INFO Running runs: ['ernodz8w']
+2026-03-07 16:03:38 INFO Running runs: []
+2026-03-07 16:03:38 INFO Agent received command: run
+2026-03-07 16:03:38 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 16:03:38 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 16:03:43 INFO Running runs: ['h9erzy7l']
+2026-03-07 16:03:43 INFO Cleaning up finished run: h9erzy7l
+2026-03-07 16:03:44 INFO Agent received command: run
+2026-03-07 16:03:44 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128,64,32,16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 16:03:44 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128,64,32,16 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 16:03:49 INFO Running runs: ['p7lerb7g']
+2026-03-07 16:03:49 INFO Cleaning up finished run: p7lerb7g
+2026-03-07 16:03:50 INFO Agent received command: run
+2026-03-07 16:03:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:03:50 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:03:55 INFO Running runs: ['b4nbj492']
+2026-03-07 16:03:55 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:03:55 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:06:57 INFO Running runs: []
+2026-03-07 16:06:58 INFO Agent received command: run
+2026-03-07 16:06:58 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: [128, 64]
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 16:06:58 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=[128, 64]" --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 16:07:03 INFO Running runs: ['1evwcl7q']
+2026-03-07 16:07:03 INFO Cleaning up finished run: 1evwcl7q
+2026-03-07 16:07:03 INFO Agent received command: run
+2026-03-07 16:07:03 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: [128, 64]
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 16:07:03 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=[128, 64]" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 16:07:08 INFO Running runs: ['zvnywjnw']
+2026-03-07 16:07:08 INFO Cleaning up finished run: zvnywjnw
+2026-03-07 16:07:09 INFO Agent received command: run
+2026-03-07 16:07:09 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: [128, 64]
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 16:07:09 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=[128, 64]" --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 16:07:14 INFO Running runs: ['mvgqsh4r']
+2026-03-07 16:07:14 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:07:14 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:14:39 INFO Running runs: []
+2026-03-07 16:14:40 INFO Agent received command: run
+2026-03-07 16:14:40 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: [128, 64, 32, 16]
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 16:14:40 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=[128, 64, 32, 16]" --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 16:14:45 INFO Running runs: ['uw5ovbjv']
+2026-03-07 16:14:45 INFO Cleaning up finished run: uw5ovbjv
+2026-03-07 16:14:46 INFO Agent received command: run
+2026-03-07 16:14:46 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: [128, 64, 32]
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 16:14:46 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=[128, 64, 32]" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 16:14:51 INFO Running runs: ['le9nc3qw']
+2026-03-07 16:14:51 INFO Cleaning up finished run: le9nc3qw
+2026-03-07 16:14:51 INFO Agent received command: run
+2026-03-07 16:14:51 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: [128, 64, 32]
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 16:14:51 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=[128, 64, 32]" --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 16:14:56 INFO Running runs: ['4ig92nux']
+2026-03-07 16:14:56 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:14:56 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:17:10 INFO Running runs: []
+2026-03-07 16:17:10 INFO Agent received command: run
+2026-03-07 16:17:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128 64 32 16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:17:10 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128 64 32 16" --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:17:15 INFO Running runs: ['dyfduank']
+2026-03-07 16:17:15 INFO Cleaning up finished run: dyfduank
+2026-03-07 16:17:16 INFO Agent received command: run
+2026-03-07 16:17:16 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128 64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 16:17:16 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128 64" --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 16:17:21 INFO Running runs: ['dqy2hepc']
+2026-03-07 16:17:21 INFO Cleaning up finished run: dqy2hepc
+2026-03-07 16:17:22 INFO Agent received command: run
+2026-03-07 16:17:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 16:17:22 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128 64" --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 16:17:27 INFO Running runs: ['kp7dyjup']
+2026-03-07 16:17:27 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:17:27 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:21:37 INFO Running runs: []
+2026-03-07 16:21:38 INFO Agent received command: run
+2026-03-07 16:21:38 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 16:21:38 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 16:21:43 INFO Running runs: ['apnsk4w3']
+2026-03-07 16:21:43 INFO Cleaning up finished run: apnsk4w3
+2026-03-07 16:21:43 INFO Agent received command: run
+2026-03-07 16:21:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128,64,32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 16:21:43 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128,64,32 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 16:21:48 INFO Running runs: ['74eve2pi']
+2026-03-07 16:21:48 INFO Cleaning up finished run: 74eve2pi
+2026-03-07 16:21:49 INFO Agent received command: run
+2026-03-07 16:21:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128,64,32
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 16:21:49 INFO About to run command: python src/train.py --activation=relu --batch_size=64 --hidden_layers=128,64,32 --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 16:21:54 INFO Running runs: ['gesf6i3p']
+2026-03-07 16:21:54 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:21:54 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:23:53 INFO Running runs: []
+2026-03-07 16:23:53 INFO Agent received command: run
+2026-03-07 16:23:53 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128 64 32
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 16:23:53 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128 64 32" --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 16:23:58 INFO Running runs: ['vmb1m8gh']
+2026-03-07 16:23:58 INFO Cleaning up finished run: vmb1m8gh
+2026-03-07 16:23:59 INFO Agent received command: run
+2026-03-07 16:23:59 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128 64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:23:59 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128 64" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:24:04 INFO Running runs: ['ze8jz7u8']
+2026-03-07 16:24:04 INFO Cleaning up finished run: ze8jz7u8
+2026-03-07 16:24:05 INFO Agent received command: run
+2026-03-07 16:24:05 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 16:24:05 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128 64" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 16:24:10 INFO Running runs: ['3gdorg26']
+2026-03-07 16:24:10 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:24:10 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:26:42 INFO Running runs: []
+2026-03-07 16:26:43 INFO Agent received command: run
+2026-03-07 16:26:43 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: [128, 64, 32, 16]
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 16:26:43 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=[128, 64, 32, 16]" --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 16:26:48 INFO Running runs: ['oesf0azk']
+2026-03-07 16:26:48 INFO Cleaning up finished run: oesf0azk
+2026-03-07 16:26:48 INFO Agent received command: run
+2026-03-07 16:26:48 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: [128, 64, 32]
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:26:48 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=[128, 64, 32]" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:26:53 INFO Running runs: ['px9t82t5']
+2026-03-07 16:26:53 INFO Cleaning up finished run: px9t82t5
+2026-03-07 16:26:54 INFO Agent received command: run
+2026-03-07 16:26:54 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: [128, 64]
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:26:54 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=[128, 64]" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:26:59 INFO Running runs: ['7csnoahn']
+2026-03-07 16:26:59 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-07 16:26:59 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-07 16:54:56 INFO Running runs: []
+2026-03-07 16:54:56 INFO Agent received command: run
+2026-03-07 16:54:56 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 16:54:56 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 16:55:01 INFO Running runs: ['239vre7h']
+2026-03-07 16:55:44 INFO Cleaning up finished run: 239vre7h
+2026-03-07 16:55:44 INFO Agent received command: run
+2026-03-07 16:55:44 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 16:55:44 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 16:55:49 INFO Running runs: ['7on96cyw']
+2026-03-07 16:56:26 INFO Cleaning up finished run: 7on96cyw
+2026-03-07 16:56:27 INFO Agent received command: run
+2026-03-07 16:56:27 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 16:56:27 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 16:56:32 INFO Running runs: ['73xbj07v']
+2026-03-07 16:57:46 INFO Cleaning up finished run: 73xbj07v
+2026-03-07 16:57:47 INFO Agent received command: run
+2026-03-07 16:57:47 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 16:57:47 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 16:57:52 INFO Running runs: ['n5n5tbxe']
+2026-03-07 16:58:29 INFO Cleaning up finished run: n5n5tbxe
+2026-03-07 16:58:29 INFO Agent received command: run
+2026-03-07 16:58:29 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 16:58:29 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 16:58:34 INFO Running runs: ['i4cbghev']
+2026-03-07 16:59:12 INFO Cleaning up finished run: i4cbghev
+2026-03-07 16:59:12 INFO Agent received command: run
+2026-03-07 16:59:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 16:59:12 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 16:59:17 INFO Running runs: ['n93e3oin']
+2026-03-07 16:59:44 INFO Cleaning up finished run: n93e3oin
+2026-03-07 16:59:45 INFO Agent received command: run
+2026-03-07 16:59:45 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 16:59:45 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 16:59:50 INFO Running runs: ['psofr3k9']
+2026-03-07 17:28:44 INFO Running runs: []
+2026-03-07 17:28:45 INFO Agent received command: run
+2026-03-07 17:28:45 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:28:45 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 17:28:50 INFO Running runs: ['xd43zjsi']
+2026-03-07 17:29:22 INFO Cleaning up finished run: xd43zjsi
+2026-03-07 17:29:23 INFO Agent received command: run
+2026-03-07 17:29:23 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:29:23 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 17:29:28 INFO Running runs: ['f830du1e']
+2026-03-07 17:29:43 INFO Cleaning up finished run: f830du1e
+2026-03-07 17:29:44 INFO Agent received command: run
+2026-03-07 17:29:44 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:29:44 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 17:29:49 INFO Running runs: ['pu93bysz']
+2026-03-07 17:30:10 INFO Cleaning up finished run: pu93bysz
+2026-03-07 17:30:11 INFO Agent received command: run
+2026-03-07 17:30:11 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:30:11 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:30:16 INFO Running runs: ['9opq7pe5']
+2026-03-07 17:30:48 INFO Cleaning up finished run: 9opq7pe5
+2026-03-07 17:30:49 INFO Agent received command: run
+2026-03-07 17:30:49 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 17:30:49 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 17:30:54 INFO Running runs: ['3wdcgtz4']
+2026-03-07 17:31:15 INFO Cleaning up finished run: 3wdcgtz4
+2026-03-07 17:31:16 INFO Agent received command: run
+2026-03-07 17:31:16 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:31:16 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:31:21 INFO Running runs: ['yka65u77']
+2026-03-07 17:31:47 INFO Cleaning up finished run: yka65u77
+2026-03-07 17:31:48 INFO Agent received command: run
+2026-03-07 17:31:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:31:48 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 17:31:53 INFO Running runs: ['xhqqvaga']
+2026-03-07 17:32:25 INFO Cleaning up finished run: xhqqvaga
+2026-03-07 17:32:25 INFO Agent received command: run
+2026-03-07 17:32:25 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:32:25 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:32:30 INFO Running runs: ['to6wuz8n']
+2026-03-07 17:32:51 INFO Cleaning up finished run: to6wuz8n
+2026-03-07 17:32:52 INFO Agent received command: run
+2026-03-07 17:32:52 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 17:32:52 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 17:32:57 INFO Running runs: ['dejuf0vp']
+2026-03-07 17:33:18 INFO Cleaning up finished run: dejuf0vp
+2026-03-07 17:33:19 INFO Agent received command: run
+2026-03-07 17:33:19 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:33:19 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:33:24 INFO Running runs: ['ymvl340k']
+2026-03-07 17:33:50 INFO Cleaning up finished run: ymvl340k
+2026-03-07 17:33:51 INFO Agent received command: run
+2026-03-07 17:33:51 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:33:51 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:33:56 INFO Running runs: ['7j4zbca8']
+2026-03-07 17:34:17 INFO Cleaning up finished run: 7j4zbca8
+2026-03-07 17:34:18 INFO Agent received command: run
+2026-03-07 17:34:18 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:34:18 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:34:23 INFO Running runs: ['ex8xwn1g']
+2026-03-07 17:34:49 INFO Cleaning up finished run: ex8xwn1g
+2026-03-07 17:34:50 INFO Agent received command: run
+2026-03-07 17:34:50 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:34:50 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:34:55 INFO Running runs: ['1zni5ut1']
+2026-03-07 17:35:17 INFO Cleaning up finished run: 1zni5ut1
+2026-03-07 17:35:17 INFO Agent received command: run
+2026-03-07 17:35:17 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 17:35:17 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 17:35:22 INFO Running runs: ['iqpd13y6']
+2026-03-07 17:35:44 INFO Cleaning up finished run: iqpd13y6
+2026-03-07 17:35:44 INFO Agent received command: run
+2026-03-07 17:35:44 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:35:44 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:35:49 INFO Running runs: ['nr15dsxm']
+2026-03-07 17:36:16 INFO Cleaning up finished run: nr15dsxm
+2026-03-07 17:36:17 INFO Agent received command: run
+2026-03-07 17:36:17 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 17:36:17 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 17:36:22 INFO Running runs: ['txnwu1h1']
+2026-03-07 17:36:48 INFO Cleaning up finished run: txnwu1h1
+2026-03-07 17:36:49 INFO Agent received command: run
+2026-03-07 17:36:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:36:49 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 17:36:54 INFO Running runs: ['zx5gpjle']
+2026-03-07 17:37:20 INFO Cleaning up finished run: zx5gpjle
+2026-03-07 17:37:21 INFO Agent received command: run
+2026-03-07 17:37:21 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:37:21 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 17:37:26 INFO Running runs: ['d9xhwzc7']
+2026-03-07 17:37:47 INFO Cleaning up finished run: d9xhwzc7
+2026-03-07 17:37:47 INFO Agent received command: run
+2026-03-07 17:37:47 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:37:48 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:37:53 INFO Running runs: ['y74emokw']
+2026-03-07 17:38:14 INFO Cleaning up finished run: y74emokw
+2026-03-07 17:38:14 INFO Agent received command: run
+2026-03-07 17:38:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:38:14 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 17:38:19 INFO Running runs: ['lnqgwqpl']
+2026-03-07 17:38:46 INFO Cleaning up finished run: lnqgwqpl
+2026-03-07 17:38:47 INFO Agent received command: run
+2026-03-07 17:38:47 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:38:47 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 17:38:52 INFO Running runs: ['ysf4rh2j']
+2026-03-07 17:39:23 INFO Cleaning up finished run: ysf4rh2j
+2026-03-07 17:39:24 INFO Agent received command: run
+2026-03-07 17:39:24 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:39:24 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 17:39:29 INFO Running runs: ['w9o8lhg7']
+2026-03-07 17:39:45 INFO Cleaning up finished run: w9o8lhg7
+2026-03-07 17:39:46 INFO Agent received command: run
+2026-03-07 17:39:46 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:39:46 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:39:51 INFO Running runs: ['3sw2qtzb']
+2026-03-07 17:40:12 INFO Cleaning up finished run: 3sw2qtzb
+2026-03-07 17:40:13 INFO Agent received command: run
+2026-03-07 17:40:13 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:40:13 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 17:40:18 INFO Running runs: ['9ali4gzb']
+2026-03-07 17:40:39 INFO Cleaning up finished run: 9ali4gzb
+2026-03-07 17:40:40 INFO Agent received command: run
+2026-03-07 17:40:40 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:40:40 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 17:40:45 INFO Running runs: ['v6peylqz']
+2026-03-07 17:41:06 INFO Cleaning up finished run: v6peylqz
+2026-03-07 17:41:07 INFO Agent received command: run
+2026-03-07 17:41:07 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:41:07 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128 --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:41:12 INFO Running runs: ['get7br94']
+2026-03-07 17:41:28 INFO Cleaning up finished run: get7br94
+2026-03-07 17:41:28 INFO Agent received command: run
+2026-03-07 17:41:28 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:41:28 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:41:33 INFO Running runs: ['uagcw452']
+2026-03-07 17:42:00 INFO Cleaning up finished run: uagcw452
+2026-03-07 17:42:01 INFO Agent received command: run
+2026-03-07 17:42:01 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 17:42:01 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 17:42:06 INFO Running runs: ['ecu0e34t']
+2026-03-07 17:42:27 INFO Cleaning up finished run: ecu0e34t
+2026-03-07 17:42:28 INFO Agent received command: run
+2026-03-07 17:42:28 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:42:28 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:42:33 INFO Running runs: ['qz4warg2']
+2026-03-07 17:42:59 INFO Cleaning up finished run: qz4warg2
+2026-03-07 17:43:01 INFO Agent received command: run
+2026-03-07 17:43:01 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:43:01 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:43:06 INFO Running runs: ['pyiozid5']
+2026-03-07 17:43:37 INFO Cleaning up finished run: pyiozid5
+2026-03-07 17:43:38 INFO Agent received command: run
+2026-03-07 17:43:38 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:43:38 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 17:43:43 INFO Running runs: ['32oxpmtx']
+2026-03-07 17:44:10 INFO Cleaning up finished run: 32oxpmtx
+2026-03-07 17:44:11 INFO Agent received command: run
+2026-03-07 17:44:11 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:44:11 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 17:44:16 INFO Running runs: ['45e6di5g']
+2026-03-07 17:44:37 INFO Cleaning up finished run: 45e6di5g
+2026-03-07 17:44:38 INFO Agent received command: run
+2026-03-07 17:44:38 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:44:38 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 --hidden_layers=128 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 17:44:43 INFO Running runs: ['w1wcwta3']
+2026-03-07 17:45:04 INFO Cleaning up finished run: w1wcwta3
+2026-03-07 17:45:05 INFO Agent received command: run
+2026-03-07 17:45:05 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 17:45:05 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 17:45:10 INFO Running runs: ['dfu20az2']
+2026-03-07 17:45:41 INFO Cleaning up finished run: dfu20az2
+2026-03-07 17:45:42 INFO Agent received command: run
+2026-03-07 17:45:42 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 17:45:42 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=sgd --weight_init=xavier
+2026-03-07 17:45:47 INFO Running runs: ['p4w7pknl']
+2026-03-07 17:46:14 INFO Cleaning up finished run: p4w7pknl
+2026-03-07 17:46:14 INFO Agent received command: run
+2026-03-07 17:46:14 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:46:14 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 17:46:19 INFO Running runs: ['hag9s0xl']
+2026-03-07 17:46:41 INFO Cleaning up finished run: hag9s0xl
+2026-03-07 17:46:41 INFO Agent received command: run
+2026-03-07 17:46:41 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:46:41 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:46:46 INFO Running runs: ['opkvdbqb']
+2026-03-07 17:47:18 INFO Cleaning up finished run: opkvdbqb
+2026-03-07 17:47:19 INFO Agent received command: run
+2026-03-07 17:47:19 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:47:19 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 17:47:24 INFO Running runs: ['th4err02']
+2026-03-07 17:47:45 INFO Cleaning up finished run: th4err02
+2026-03-07 17:47:46 INFO Agent received command: run
+2026-03-07 17:47:46 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:47:46 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:47:51 INFO Running runs: ['lj7wmuei']
+2026-03-07 17:48:22 INFO Cleaning up finished run: lj7wmuei
+2026-03-07 17:48:23 INFO Agent received command: run
+2026-03-07 17:48:23 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:48:23 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 17:48:28 INFO Running runs: ['cr3d5vta']
+2026-03-07 17:48:49 INFO Cleaning up finished run: cr3d5vta
+2026-03-07 17:48:50 INFO Agent received command: run
+2026-03-07 17:48:50 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:48:50 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:48:55 INFO Running runs: ['d659xgml']
+2026-03-07 17:49:22 INFO Cleaning up finished run: d659xgml
+2026-03-07 17:49:22 INFO Agent received command: run
+2026-03-07 17:49:22 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:49:22 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 17:49:27 INFO Running runs: ['yk14jhjs']
+2026-03-07 17:49:54 INFO Cleaning up finished run: yk14jhjs
+2026-03-07 17:49:55 INFO Agent received command: run
+2026-03-07 17:49:55 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:49:55 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 17:50:00 INFO Running runs: ['9jxtond6']
+2026-03-07 17:50:21 INFO Cleaning up finished run: 9jxtond6
+2026-03-07 17:50:22 INFO Agent received command: run
+2026-03-07 17:50:22 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:50:22 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 17:50:27 INFO Running runs: ['kydwj9ch']
+2026-03-07 17:50:48 INFO Cleaning up finished run: kydwj9ch
+2026-03-07 17:50:49 INFO Agent received command: run
+2026-03-07 17:50:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:50:49 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:50:54 INFO Running runs: ['zgc16pae']
+2026-03-07 17:51:10 INFO Cleaning up finished run: zgc16pae
+2026-03-07 17:51:10 INFO Agent received command: run
+2026-03-07 17:51:10 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:51:10 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 17:51:15 INFO Running runs: ['7grw0db5']
+2026-03-07 17:51:47 INFO Cleaning up finished run: 7grw0db5
+2026-03-07 17:51:48 INFO Agent received command: run
+2026-03-07 17:51:48 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:51:48 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:51:53 INFO Running runs: ['xt0b56z0']
+2026-03-07 17:52:25 INFO Cleaning up finished run: xt0b56z0
+2026-03-07 17:52:25 INFO Agent received command: run
+2026-03-07 17:52:25 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:52:25 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:52:30 INFO Running runs: ['7vuv6fbj']
+2026-03-07 17:52:51 INFO Cleaning up finished run: 7vuv6fbj
+2026-03-07 17:52:52 INFO Agent received command: run
+2026-03-07 17:52:52 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:52:52 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 17:52:57 INFO Running runs: ['71d4ebno']
+2026-03-07 17:53:18 INFO Cleaning up finished run: 71d4ebno
+2026-03-07 17:53:19 INFO Agent received command: run
+2026-03-07 17:53:19 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:53:19 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:53:24 INFO Running runs: ['3wtkhar9']
+2026-03-07 17:53:50 INFO Cleaning up finished run: 3wtkhar9
+2026-03-07 17:53:51 INFO Agent received command: run
+2026-03-07 17:53:51 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:53:51 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:53:56 INFO Running runs: ['vf1mltu8']
+2026-03-07 17:54:23 INFO Cleaning up finished run: vf1mltu8
+2026-03-07 17:54:23 INFO Agent received command: run
+2026-03-07 17:54:23 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 17:54:23 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=nag --weight_init=xavier
+2026-03-07 17:54:28 INFO Running runs: ['9qcx63mp']
+2026-03-07 17:54:49 INFO Cleaning up finished run: 9qcx63mp
+2026-03-07 17:54:50 INFO Agent received command: run
+2026-03-07 17:54:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:54:50 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:54:55 INFO Running runs: ['m8c7ptp8']
+2026-03-07 17:55:17 INFO Cleaning up finished run: m8c7ptp8
+2026-03-07 17:55:18 INFO Agent received command: run
+2026-03-07 17:55:18 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:55:18 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:55:23 INFO Running runs: ['7ce5tjrx']
+2026-03-07 17:55:54 INFO Cleaning up finished run: 7ce5tjrx
+2026-03-07 17:55:55 INFO Agent received command: run
+2026-03-07 17:55:55 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 17:55:55 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 17:56:00 INFO Running runs: ['evk0inno']
+2026-03-07 17:56:27 INFO Cleaning up finished run: evk0inno
+2026-03-07 17:56:27 INFO Agent received command: run
+2026-03-07 17:56:27 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 17:56:27 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 17:56:32 INFO Running runs: ['htsamtqh']
+2026-03-07 17:56:48 INFO Cleaning up finished run: htsamtqh
+2026-03-07 17:56:49 INFO Agent received command: run
+2026-03-07 17:56:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 17:56:49 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 17:56:54 INFO Running runs: ['u2kqzfrn']
+2026-03-07 17:57:10 INFO Cleaning up finished run: u2kqzfrn
+2026-03-07 17:57:10 INFO Agent received command: run
+2026-03-07 17:57:10 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:57:10 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 17:57:15 INFO Running runs: ['3sriheyh']
+2026-03-07 17:57:37 INFO Cleaning up finished run: 3sriheyh
+2026-03-07 17:57:37 INFO Agent received command: run
+2026-03-07 17:57:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:57:37 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:57:42 INFO Running runs: ['q62ow735']
+2026-03-07 17:58:14 INFO Cleaning up finished run: q62ow735
+2026-03-07 17:58:15 INFO Agent received command: run
+2026-03-07 17:58:15 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:58:15 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 17:58:20 INFO Running runs: ['88dwkqas']
+2026-03-07 17:58:36 INFO Cleaning up finished run: 88dwkqas
+2026-03-07 17:58:37 INFO Agent received command: run
+2026-03-07 17:58:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 17:58:37 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 17:58:42 INFO Running runs: ['bezogv5j']
+2026-03-07 17:59:14 INFO Cleaning up finished run: bezogv5j
+2026-03-07 17:59:15 INFO Agent received command: run
+2026-03-07 17:59:15 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 17:59:15 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 17:59:20 INFO Running runs: ['o2bk1uux']
+2026-03-07 17:59:41 INFO Cleaning up finished run: o2bk1uux
+2026-03-07 17:59:41 INFO Agent received command: run
+2026-03-07 17:59:41 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 17:59:41 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 17:59:46 INFO Running runs: ['scabej8n']
+2026-03-07 18:00:13 INFO Cleaning up finished run: scabej8n
+2026-03-07 18:00:14 INFO Agent received command: run
+2026-03-07 18:00:14 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:00:14 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.1 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:00:19 INFO Running runs: ['i63gmzl4']
+2026-03-07 18:00:40 INFO Cleaning up finished run: i63gmzl4
+2026-03-07 18:00:41 INFO Agent received command: run
+2026-03-07 18:00:41 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:00:41 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:00:46 INFO Running runs: ['tsmaak4b']
+2026-03-07 18:01:07 INFO Cleaning up finished run: tsmaak4b
+2026-03-07 18:01:07 INFO Agent received command: run
+2026-03-07 18:01:07 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:01:07 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:01:12 INFO Running runs: ['oa2xp2aq']
+2026-03-07 18:01:34 INFO Cleaning up finished run: oa2xp2aq
+2026-03-07 18:01:34 INFO Agent received command: run
+2026-03-07 18:01:34 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:01:34 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:01:39 INFO Running runs: ['7riapg7s']
+2026-03-07 18:02:00 INFO Cleaning up finished run: 7riapg7s
+2026-03-07 18:02:01 INFO Agent received command: run
+2026-03-07 18:02:01 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:02:01 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=nag --weight_init=random
+2026-03-07 18:02:06 INFO Running runs: ['p1buu8d1']
+2026-03-07 18:02:28 INFO Cleaning up finished run: p1buu8d1
+2026-03-07 18:02:28 INFO Agent received command: run
+2026-03-07 18:02:28 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 18:02:28 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 18:02:33 INFO Running runs: ['u68n0fjv']
+2026-03-07 18:02:54 INFO Cleaning up finished run: u68n0fjv
+2026-03-07 18:02:55 INFO Agent received command: run
+2026-03-07 18:02:55 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:02:55 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:03:00 INFO Running runs: ['3mo0j9x4']
+2026-03-07 18:03:27 INFO Cleaning up finished run: 3mo0j9x4
+2026-03-07 18:03:28 INFO Agent received command: run
+2026-03-07 18:03:28 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:03:28 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 18:03:33 INFO Running runs: ['xyzq7c47']
+2026-03-07 18:03:54 INFO Cleaning up finished run: xyzq7c47
+2026-03-07 18:03:55 INFO Agent received command: run
+2026-03-07 18:03:55 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:03:55 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:04:00 INFO Running runs: ['hk7m0arw']
+2026-03-07 18:04:21 INFO Cleaning up finished run: hk7m0arw
+2026-03-07 18:04:22 INFO Agent received command: run
+2026-03-07 18:04:22 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 18:04:22 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=nag --weight_init=xavier
+2026-03-07 18:04:27 INFO Running runs: ['vjwjvybu']
+2026-03-07 18:04:54 INFO Cleaning up finished run: vjwjvybu
+2026-03-07 18:04:54 INFO Agent received command: run
+2026-03-07 18:04:54 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:04:54 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 18:04:59 INFO Running runs: ['2e3flygg']
+2026-03-07 18:05:15 INFO Cleaning up finished run: 2e3flygg
+2026-03-07 18:05:16 INFO Agent received command: run
+2026-03-07 18:05:16 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.1
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 18:05:16 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.1 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 18:05:21 INFO Running runs: ['aiy2tr9b']
+2026-03-07 18:05:48 INFO Cleaning up finished run: aiy2tr9b
+2026-03-07 18:05:48 INFO Agent received command: run
+2026-03-07 18:05:48 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:05:48 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 18:05:53 INFO Running runs: ['sqqcrw8t']
+2026-03-07 18:06:20 INFO Cleaning up finished run: sqqcrw8t
+2026-03-07 18:06:20 INFO Agent received command: run
+2026-03-07 18:06:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 18:06:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 18:06:25 INFO Running runs: ['z2xcvz5j']
+2026-03-07 18:06:46 INFO Cleaning up finished run: z2xcvz5j
+2026-03-07 18:06:47 INFO Agent received command: run
+2026-03-07 18:06:47 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:06:47 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 18:06:52 INFO Running runs: ['gg2tjn43']
+2026-03-07 18:07:13 INFO Cleaning up finished run: gg2tjn43
+2026-03-07 18:07:14 INFO Agent received command: run
+2026-03-07 18:07:14 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 18:07:14 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 18:07:19 INFO Running runs: ['9plbh74s']
+2026-03-07 18:07:40 INFO Cleaning up finished run: 9plbh74s
+2026-03-07 18:07:41 INFO Agent received command: run
+2026-03-07 18:07:41 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:07:41 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:07:46 INFO Running runs: ['417iu1v5']
+2026-03-07 18:08:18 INFO Cleaning up finished run: 417iu1v5
+2026-03-07 18:08:19 INFO Agent received command: run
+2026-03-07 18:08:19 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:08:19 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 18:08:24 INFO Running runs: ['uyue9v5d']
+2026-03-07 18:08:51 INFO Cleaning up finished run: uyue9v5d
+2026-03-07 18:08:52 INFO Agent received command: run
+2026-03-07 18:08:52 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:08:52 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:08:57 INFO Running runs: ['hcf0sa3g']
+2026-03-07 18:09:18 INFO Cleaning up finished run: hcf0sa3g
+2026-03-07 18:09:18 INFO Agent received command: run
+2026-03-07 18:09:18 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 18:09:18 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 18:09:23 INFO Running runs: ['yfy1bj3r']
+2026-03-07 18:09:45 INFO Cleaning up finished run: yfy1bj3r
+2026-03-07 18:09:45 INFO Agent received command: run
+2026-03-07 18:09:45 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:09:45 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=nag --weight_init=random
+2026-03-07 18:09:50 INFO Running runs: ['u4a7skiu']
+2026-03-07 18:10:22 INFO Cleaning up finished run: u4a7skiu
+2026-03-07 18:10:23 INFO Agent received command: run
+2026-03-07 18:10:23 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-07 18:10:23 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=rmsprop --weight_init=xavier
+2026-03-07 18:10:28 INFO Running runs: ['s6qhig56']
+2026-03-07 18:10:49 INFO Cleaning up finished run: s6qhig56
+2026-03-07 18:10:50 INFO Agent received command: run
+2026-03-07 18:10:50 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: nag
+	weight_init: random
+2026-03-07 18:10:50 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=nag --weight_init=random
+2026-03-07 18:10:55 INFO Running runs: ['t5rj9qku']
+2026-03-07 18:11:16 INFO Cleaning up finished run: t5rj9qku
+2026-03-07 18:11:17 INFO Agent received command: run
+2026-03-07 18:11:17 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:11:17 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=sgd --weight_init=random
+2026-03-07 18:11:22 INFO Running runs: ['u335nrdo']
+2026-03-07 18:11:43 INFO Cleaning up finished run: u335nrdo
+2026-03-07 18:11:44 INFO Agent received command: run
+2026-03-07 18:11:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: random
+2026-03-07 18:11:44 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.001 --optimizer=momentum --weight_init=random
+2026-03-07 18:11:49 INFO Running runs: ['zmbjlkas']
+2026-03-07 18:12:10 INFO Cleaning up finished run: zmbjlkas
+2026-03-07 18:12:11 INFO Agent received command: run
+2026-03-07 18:12:11 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: random
+2026-03-07 18:12:11 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.1 --optimizer=momentum --weight_init=random
+2026-03-07 18:12:16 INFO Running runs: ['w7oab5dj']
+2026-03-07 18:12:37 INFO Cleaning up finished run: w7oab5dj
+2026-03-07 18:12:38 INFO Agent received command: run
+2026-03-07 18:12:38 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:12:38 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 18:12:43 INFO Running runs: ['ard4e1se']
+2026-03-07 18:13:04 INFO Cleaning up finished run: ard4e1se
+2026-03-07 18:13:05 INFO Agent received command: run
+2026-03-07 18:13:05 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:13:05 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:13:10 INFO Running runs: ['ldsbq6wh']
+2026-03-07 18:13:31 INFO Cleaning up finished run: ldsbq6wh
+2026-03-07 18:13:32 INFO Agent received command: run
+2026-03-07 18:13:32 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.001
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:13:32 INFO About to run command: python src/train.py --activation=relu --batch_size=32 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.001 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:13:37 INFO Running runs: ['laxcyo29']
+2026-03-07 18:14:03 INFO Cleaning up finished run: laxcyo29
+2026-03-07 18:14:04 INFO Agent received command: run
+2026-03-07 18:14:04 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:14:04 INFO About to run command: python src/train.py --activation=relu --batch_size=128 --hidden_layers=128 --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:14:09 INFO Running runs: ['1bxirfz4']
+2026-03-07 18:14:25 INFO Cleaning up finished run: 1bxirfz4
+2026-03-07 18:14:25 INFO Agent received command: run
+2026-03-07 18:14:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: nag
+	weight_init: xavier
+2026-03-07 18:14:25 INFO About to run command: python src/train.py --activation=tanh --batch_size=64 --hidden_layers=128 --learning_rate=0.01 --optimizer=nag --weight_init=xavier
+2026-03-07 18:14:30 INFO Running runs: ['obqn4s7f']
+2026-03-07 18:14:52 INFO Cleaning up finished run: obqn4s7f
+2026-03-07 18:14:53 INFO Agent received command: run
+2026-03-07 18:14:53 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: random
+2026-03-07 18:14:53 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=momentum --weight_init=random
+2026-03-07 18:14:58 INFO Running runs: ['zq68a4uf']
+2026-03-07 18:15:19 INFO Cleaning up finished run: zq68a4uf
+2026-03-07 18:15:20 INFO Agent received command: run
+2026-03-07 18:15:20 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:15:20 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 --hidden_layers=128 --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:15:25 INFO Running runs: ['0xha8wee']
+2026-03-07 18:15:51 INFO Cleaning up finished run: 0xha8wee
+2026-03-07 18:15:52 INFO Agent received command: run
+2026-03-07 18:15:52 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 128
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:15:52 INFO About to run command: python src/train.py --activation=tanh --batch_size=128 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:15:57 INFO Running runs: ['ptxeltbl']
+2026-03-07 18:16:18 INFO Cleaning up finished run: ptxeltbl
+2026-03-07 18:16:19 INFO Agent received command: run
+2026-03-07 18:16:19 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:16:19 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=64 --hidden_layers=128 --learning_rate=0.001 --optimizer=sgd --weight_init=random
+2026-03-07 18:16:24 INFO Running runs: ['9sl1w672']
+2026-03-07 18:16:45 INFO Cleaning up finished run: 9sl1w672
+2026-03-07 18:16:45 INFO Agent received command: run
+2026-03-07 18:16:45 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:16:45 INFO About to run command: python src/train.py --activation=relu --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:16:50 INFO Running runs: ['men8oq5u']
+2026-03-07 18:17:06 INFO Cleaning up finished run: men8oq5u
+2026-03-07 18:17:07 INFO Agent received command: run
+2026-03-07 18:17:07 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.1
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:17:07 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64, 32" --learning_rate=0.1 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:17:12 INFO Running runs: ['v3zvvp10']
+2026-03-07 18:17:44 INFO Cleaning up finished run: v3zvvp10
+2026-03-07 18:17:45 INFO Agent received command: run
+2026-03-07 18:17:45 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_layers: 128, 64, 32, 16
+	learning_rate: 0.01
+	optimizer: momentum
+	weight_init: xavier
+2026-03-07 18:17:45 INFO About to run command: python src/train.py --activation=relu --batch_size=64 "--hidden_layers=128, 64, 32, 16" --learning_rate=0.01 --optimizer=momentum --weight_init=xavier
+2026-03-07 18:17:50 INFO Running runs: ['zrl1p1rw']
+2026-03-07 18:18:11 INFO Cleaning up finished run: zrl1p1rw
+2026-03-07 18:18:12 INFO Agent received command: run
+2026-03-07 18:18:12 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 32
+	hidden_layers: 128
+	learning_rate: 0.001
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:18:12 INFO About to run command: python src/train.py --activation=relu --batch_size=32 --hidden_layers=128 --learning_rate=0.001 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:18:17 INFO Running runs: ['x449qacr']
+2026-03-07 18:18:44 INFO Cleaning up finished run: x449qacr
+2026-03-07 18:18:45 INFO Agent received command: run
+2026-03-07 18:18:45 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64
+	learning_rate: 0.1
+	optimizer: sgd
+	weight_init: xavier
+2026-03-07 18:18:45 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64" --learning_rate=0.1 --optimizer=sgd --weight_init=xavier
+2026-03-07 18:18:50 INFO Running runs: ['01i6hyhj']
+2026-03-07 18:19:11 INFO Cleaning up finished run: 01i6hyhj
+2026-03-07 18:19:12 INFO Agent received command: run
+2026-03-07 18:19:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 128
+	hidden_layers: 128, 64, 32
+	learning_rate: 0.01
+	optimizer: rmsprop
+	weight_init: random
+2026-03-07 18:19:12 INFO About to run command: python src/train.py --activation=sigmoid --batch_size=128 "--hidden_layers=128, 64, 32" --learning_rate=0.01 --optimizer=rmsprop --weight_init=random
+2026-03-07 18:19:17 INFO Running runs: ['fcytpr78']
+2026-03-07 18:19:38 INFO Cleaning up finished run: fcytpr78
+2026-03-07 18:19:39 INFO Agent received command: run
+2026-03-07 18:19:39 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	hidden_layers: 128, 64
+	learning_rate: 0.01
+	optimizer: sgd
+	weight_init: random
+2026-03-07 18:19:39 INFO About to run command: python src/train.py --activation=tanh --batch_size=32 "--hidden_layers=128, 64" --learning_rate=0.01 --optimizer=sgd --weight_init=random
+2026-03-07 18:19:44 INFO Running runs: ['nuo09szr']
+2026-03-07 18:20:11 INFO Cleaning up finished run: nuo09szr

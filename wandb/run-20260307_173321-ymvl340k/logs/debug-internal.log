@@ -1,0 +1,11 @@
+{"time":"2026-03-07T17:33:23.9273872+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T17:33:24.4250182+05:30","level":"INFO","msg":"stream: created new stream","id":"ymvl340k"}
+{"time":"2026-03-07T17:33:24.4250182+05:30","level":"INFO","msg":"handler: started","stream_id":"ymvl340k"}
+{"time":"2026-03-07T17:33:24.4266456+05:30","level":"INFO","msg":"stream: started","id":"ymvl340k"}
+{"time":"2026-03-07T17:33:24.4266456+05:30","level":"INFO","msg":"writer: started","stream_id":"ymvl340k"}
+{"time":"2026-03-07T17:33:24.4266456+05:30","level":"INFO","msg":"sender: started","stream_id":"ymvl340k"}
+{"time":"2026-03-07T17:33:48.584405+05:30","level":"INFO","msg":"stream: closing","id":"ymvl340k"}
+{"time":"2026-03-07T17:33:49.2927566+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T17:33:49.6358548+05:30","level":"INFO","msg":"handler: closed","stream_id":"ymvl340k"}
+{"time":"2026-03-07T17:33:49.6455604+05:30","level":"INFO","msg":"sender: closed","stream_id":"ymvl340k"}
+{"time":"2026-03-07T17:33:49.6455604+05:30","level":"INFO","msg":"stream: closed","id":"ymvl340k"}

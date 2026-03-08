@@ -1,0 +1,11 @@
+{"time":"2026-03-07T17:49:27.5324248+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T17:49:28.0231385+05:30","level":"INFO","msg":"stream: created new stream","id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:28.0236343+05:30","level":"INFO","msg":"handler: started","stream_id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:28.0250624+05:30","level":"INFO","msg":"stream: started","id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:28.0250624+05:30","level":"INFO","msg":"writer: started","stream_id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:28.0250624+05:30","level":"INFO","msg":"sender: started","stream_id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:48.8163623+05:30","level":"INFO","msg":"stream: closing","id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:50.4778065+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T17:49:50.9225827+05:30","level":"INFO","msg":"handler: closed","stream_id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:50.933297+05:30","level":"INFO","msg":"sender: closed","stream_id":"yk14jhjs"}
+{"time":"2026-03-07T17:49:50.933297+05:30","level":"INFO","msg":"stream: closed","id":"yk14jhjs"}

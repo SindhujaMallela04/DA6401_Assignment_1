@@ -1,0 +1,6 @@
+{"time":"2026-03-07T16:40:31.9331256+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T16:40:32.4222848+05:30","level":"INFO","msg":"stream: created new stream","id":"tdglrelx"}
+{"time":"2026-03-07T16:40:32.4229012+05:30","level":"INFO","msg":"handler: started","stream_id":"tdglrelx"}
+{"time":"2026-03-07T16:40:32.4247185+05:30","level":"INFO","msg":"stream: started","id":"tdglrelx"}
+{"time":"2026-03-07T16:40:32.4247185+05:30","level":"INFO","msg":"writer: started","stream_id":"tdglrelx"}
+{"time":"2026-03-07T16:40:32.4247185+05:30","level":"INFO","msg":"sender: started","stream_id":"tdglrelx"}

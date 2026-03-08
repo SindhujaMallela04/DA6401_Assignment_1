@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\train.py", line 155, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\train.py", line 95, in main
+    train_accuracy = model.evaluate(x_train, y_train)
+  File "C:\Users\malle\Desktop\da6401_assignment_1-main\src\ann\neural_network.py", line 178, in evaluate
+    accuracy = np.mean(predictions == true_labels)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: operands could not be broadcast together with shapes (2,10) (54000,)

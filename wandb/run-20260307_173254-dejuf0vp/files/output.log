@@ -1,0 +1,6 @@
+Train Accuracy:  0.757019
+Val Accuracy:  0.768833
+Test Accuracy:  0.769200
+Training complete!
+Model saved as best_model.npy
+Best config saved as best_config.json

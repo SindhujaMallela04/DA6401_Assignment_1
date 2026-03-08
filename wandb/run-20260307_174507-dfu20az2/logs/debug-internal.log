@@ -1,0 +1,11 @@
+{"time":"2026-03-07T17:45:09.8253528+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T17:45:10.3133904+05:30","level":"INFO","msg":"stream: created new stream","id":"dfu20az2"}
+{"time":"2026-03-07T17:45:10.3139887+05:30","level":"INFO","msg":"handler: started","stream_id":"dfu20az2"}
+{"time":"2026-03-07T17:45:10.3157914+05:30","level":"INFO","msg":"stream: started","id":"dfu20az2"}
+{"time":"2026-03-07T17:45:10.3157914+05:30","level":"INFO","msg":"writer: started","stream_id":"dfu20az2"}
+{"time":"2026-03-07T17:45:10.3157914+05:30","level":"INFO","msg":"sender: started","stream_id":"dfu20az2"}
+{"time":"2026-03-07T17:45:37.7380711+05:30","level":"INFO","msg":"stream: closing","id":"dfu20az2"}
+{"time":"2026-03-07T17:45:38.4362444+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T17:45:38.8655789+05:30","level":"INFO","msg":"handler: closed","stream_id":"dfu20az2"}
+{"time":"2026-03-07T17:45:38.8764469+05:30","level":"INFO","msg":"sender: closed","stream_id":"dfu20az2"}
+{"time":"2026-03-07T17:45:38.8764469+05:30","level":"INFO","msg":"stream: closed","id":"dfu20az2"}

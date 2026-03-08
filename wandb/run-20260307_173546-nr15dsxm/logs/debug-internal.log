@@ -1,0 +1,11 @@
+{"time":"2026-03-07T17:35:49.5038158+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T17:35:50.0017737+05:30","level":"INFO","msg":"stream: created new stream","id":"nr15dsxm"}
+{"time":"2026-03-07T17:35:50.0017737+05:30","level":"INFO","msg":"handler: started","stream_id":"nr15dsxm"}
+{"time":"2026-03-07T17:35:50.0035794+05:30","level":"INFO","msg":"stream: started","id":"nr15dsxm"}
+{"time":"2026-03-07T17:35:50.0035794+05:30","level":"INFO","msg":"writer: started","stream_id":"nr15dsxm"}
+{"time":"2026-03-07T17:35:50.0035794+05:30","level":"INFO","msg":"sender: started","stream_id":"nr15dsxm"}
+{"time":"2026-03-07T17:36:11.2691524+05:30","level":"INFO","msg":"stream: closing","id":"nr15dsxm"}
+{"time":"2026-03-07T17:36:11.9527253+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T17:36:12.2891087+05:30","level":"INFO","msg":"handler: closed","stream_id":"nr15dsxm"}
+{"time":"2026-03-07T17:36:12.2996364+05:30","level":"INFO","msg":"sender: closed","stream_id":"nr15dsxm"}
+{"time":"2026-03-07T17:36:12.2996364+05:30","level":"INFO","msg":"stream: closed","id":"nr15dsxm"}

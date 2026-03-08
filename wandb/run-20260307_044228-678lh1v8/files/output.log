@@ -1,0 +1,7 @@
+C:\Users\malle\Desktop\da6401_assignment_1-main\da6401_assignment_1-main\src\ann\activations.py:15: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-x))
+Train Accuracy:  0.957450
+Test Accuracy:  0.951500
+Training complete!
+Model saved as best_model.npy
+Best config saved as best_config.json

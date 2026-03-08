@@ -1,0 +1,11 @@
+{"time":"2026-03-07T18:15:56.9990506+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T18:15:57.4676712+05:30","level":"INFO","msg":"stream: created new stream","id":"ptxeltbl"}
+{"time":"2026-03-07T18:15:57.4676712+05:30","level":"INFO","msg":"handler: started","stream_id":"ptxeltbl"}
+{"time":"2026-03-07T18:15:57.4704197+05:30","level":"INFO","msg":"stream: started","id":"ptxeltbl"}
+{"time":"2026-03-07T18:15:57.4704197+05:30","level":"INFO","msg":"writer: started","stream_id":"ptxeltbl"}
+{"time":"2026-03-07T18:15:57.4704197+05:30","level":"INFO","msg":"sender: started","stream_id":"ptxeltbl"}
+{"time":"2026-03-07T18:16:16.2775417+05:30","level":"INFO","msg":"stream: closing","id":"ptxeltbl"}
+{"time":"2026-03-07T18:16:16.9371447+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T18:16:17.2590793+05:30","level":"INFO","msg":"handler: closed","stream_id":"ptxeltbl"}
+{"time":"2026-03-07T18:16:17.271143+05:30","level":"INFO","msg":"sender: closed","stream_id":"ptxeltbl"}
+{"time":"2026-03-07T18:16:17.271143+05:30","level":"INFO","msg":"stream: closed","id":"ptxeltbl"}

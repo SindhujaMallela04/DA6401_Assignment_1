@@ -1,0 +1,1 @@
+{"columns": ["image", "true_label", "predicted_label"], "data": [["Image", 7, 1], ["Image", 2, 1], ["Image", 0, 1], ["Image", 4, 1], ["Image", 4, 1], ["Image", 9, 1], ["Image", 5, 1], ["Image", 9, 1], ["Image", 0, 1], ["Image", 6, 1]]}
