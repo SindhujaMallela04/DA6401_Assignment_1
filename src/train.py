@@ -37,6 +37,8 @@ def parse_arguments():
     parser.add_argument('--learning_rate', type = float, default = 0.001)
     parser.add_argument('--optimizer', type = str, default = 'sgd', choices = ['sgd', 'momentum', 'nag', 'rmsprop'])
     parser.add_argument('--hidden_layers', type = str, default = "128, 64, 32, 16")
+    parser.add_argument('--num_layers', type = int, default = None)
+    parser.add_argument('--hidden_size', type = int, nargs = '+', default = None)
     parser.add_argument('--num_neurons', type = int, default = 128)
     parser.add_argument('--activation', type = str, default = 'relu', choices = ['relu', 'sigmoid', 'tanh'])
     parser.add_argument('--loss', type = str, default = 'cross_entropy', choices = ['cross_entropy', 'mse'])
@@ -53,7 +55,10 @@ def main():
     """
     args = parse_arguments()
 
-    args.hidden_layers = [int(x.strip()) for x in args.hidden_layers.split(",")]
+    if args.hidden_size is not None:
+        args.hidden_layers = args.hidden_size
+    else :
+        args.hidden_layers = [int(x.strip()) for x in args.hidden_layers.split(",")]
 
     wandb.init(project = args.wandb_project, config = vars(args))
 
