@@ -18,8 +18,8 @@ class NeuralNetwork:
         self.args = cli_args
         if hasattr(self.args, "hidden_layers") :
             hidden_layers = self.args.hidden_layers
-        else :
-            hidden_layers = self.args.hidden_size
+        elif hasattr(self.args, "hidden_size") :
+            hidden_layers = [self.args.hidden_size] * self.args.num_layers
         input_size = 784
         self.layers = []
 
@@ -79,7 +79,7 @@ class NeuralNetwork:
         X = self.layers[-1].forward(X)
 
         self.logits = X
-        return softmax(X), X
+        return X, softmax(X)
 
     def backward(self, y_true, y_pred):
         """
@@ -88,8 +88,8 @@ class NeuralNetwork:
         - `grad_Ws[0]` is gradient for the last (output) layer weights,
           `grad_bs[0]` is gradient for the last layer biases, and so on.
         """
-        dZ = self.loss_grad(y_true, y_pred)
-        # dZ = y_pred - y_true
+        # dZ = self.loss_grad(y_true, y_pred)
+        dZ = y_pred - y_true
         
         for i in reversed(range(len(self.layers))) :
             dX = self.layers[i].backward(dZ)
@@ -103,6 +103,17 @@ class NeuralNetwork:
                     dZ = dX * tanh_derivative(Z_prev)
             else :
                 dZ = dX
+        # for i in reversed(range(len(self.layers))):
+        #     if i < len(self.layers) - 1:
+        #         Z = self.layers[i].Z
+        #         if self.args.activation == 'relu':
+        #             dZ = dZ * relu_derivative(Z)
+        #         elif self.args.activation == 'sigmoid':
+        #             dZ = dZ * sigmoid_derivative(Z)
+        #         elif self.args.activation == 'tanh':
+        #             dZ = dZ * tanh_derivative(Z)
+
+        #     dZ = self.layers[i].backward(dZ)
 
         grad_W_list = []
         grad_b_list = []
@@ -112,12 +123,8 @@ class NeuralNetwork:
             grad_W_list.append(layer.grad_W)
             grad_b_list.append(layer.grad_b)
         # create explicit object arrays to avoid numpy trying to broadcast shapes
-        self.grad_W = np.empty(len(grad_W_list), dtype=object)
-        self.grad_b = np.empty(len(grad_b_list), dtype=object)
-
-        for i, (gw, gb) in enumerate(zip(grad_W_list, grad_b_list)):
-            self.grad_W[i] = gw
-            self.grad_b[i] = gb
+        self.grad_W = np.array(grad_W_list, dtype=object)
+        self.grad_b = np.array(grad_b_list, dtype=object)
 
         # print("Shape of grad_Ws:", self.grad_W.shape, self.grad_W[1].shape)
         # print("Shape of grad_bs:", self.grad_b.shape, self.grad_b[1].shape)

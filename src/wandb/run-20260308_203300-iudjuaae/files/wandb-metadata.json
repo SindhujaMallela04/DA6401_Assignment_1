@@ -1,0 +1,40 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.7",
+  "startedAt":  "2026-03-08T15:03:00.752070Z",
+  "program":  "C:\\Users\\malle\\Desktop\\da6401_assignment_1-main\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/SindhujaMallela04/DA6401_Assignment_1.git",
+    "commit":  "4c4e187b0633df8c7d1f0651c7fad8d61c804296"
+  },
+  "email":  "mallelasindhuja@gmail.com",
+  "root":  "C:\\Users\\malle\\Desktop\\da6401_assignment_1-main\\src",
+  "host":  "SindhujaMallela",
+  "executable":  "C:\\Users\\malle\\anaconda3\\envs\\my_conda_env\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "Quadro P520",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "554224840704",
+      "used":  "442196770816"
+    }
+  },
+  "memory":  {
+    "total":  "16942211072"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Quadro P520",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  384,
+      "architecture":  "Pascal",
+      "uuid":  "GPU-14118bf7-0f72-ba32-983a-49d7b0ad7d63"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "fj389s6tz3lmzcmo9wpsnxs52hq0f39b"
+}

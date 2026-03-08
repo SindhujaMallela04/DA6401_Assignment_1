@@ -1,0 +1,84 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            fj389s6tz3lmzcmo9wpsnxs52hq0f39b:
+                codePath: src\train.py
+                codePathLocal: train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "554224840704"
+                        used: "442196770816"
+                email: mallelasindhuja@gmail.com
+                executable: C:\Users\malle\anaconda3\envs\my_conda_env\python.exe
+                git:
+                    commit: 4c4e187b0633df8c7d1f0651c7fad8d61c804296
+                    remote: https://github.com/SindhujaMallela04/DA6401_Assignment_1.git
+                gpu: Quadro P520
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 384
+                      memoryTotal: "4294967296"
+                      name: Quadro P520
+                      uuid: GPU-14118bf7-0f72-ba32-983a-49d7b0ad7d63
+                host: SindhujaMallela
+                memory:
+                    total: "16942211072"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\malle\Desktop\da6401_assignment_1-main\src\train.py
+                python: CPython 3.13.7
+                root: C:\Users\malle\Desktop\da6401_assignment_1-main\src
+                startedAt: "2026-03-08T15:03:00.752070Z"
+                writerId: fj389s6tz3lmzcmo9wpsnxs52hq0f39b
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 49
+                - 53
+            "3":
+                - 16
+            "4": 3.13.7
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: relu
+batch_size:
+    value: 64
+dataset:
+    value: mnist
+epochs:
+    value: 5
+hidden_layers:
+    value:
+        - 128
+        - 64
+        - 32
+        - 16
+learning_rate:
+    value: 0.001
+loss:
+    value: cross_entropy
+model_save_path:
+    value: models/
+num_neurons:
+    value: 128
+optimizer:
+    value: sgd
+wandb_project:
+    value: DL_Assign_1_proj
+weight_init:
+    value: xavier
