@@ -23,6 +23,8 @@ class NeuralNetwork:
         else :
             hidden_layers = []
         
+        if len(hidden_layers) > 0 and isinstance(hidden_layers[0], list) :
+            hidden_layers = hidden_layers[0]
         hidden_layers = [int(x) for x in hidden_layers]
         input_size = 784
         self.layers = []
