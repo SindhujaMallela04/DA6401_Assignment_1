@@ -28,8 +28,6 @@ class NeuralNetwork:
         elif isinstance(hidden_layers, list) :
             hidden_layers = [int(x) for x in hidden_layers]
         
-        # if len(hidden_layers) > 0 and isinstance(hidden_layers[0], list) :
-        #     hidden_layers = hidden_layers[0]
         hidden_layers = [int(x) for x in hidden_layers]
         input_size = 784
         self.layers = []
@@ -208,12 +206,29 @@ class NeuralNetwork:
             d[f"b{i}"] = layer.b.copy()
         return d
 
+    # def set_weights(self, weight_dict):
+    #     for i, layer in enumerate(self.layers):
+    #         w_key = f"W{i}"
+    #         b_key = f"b{i}"
+    #         if w_key in weight_dict:
+    #             layer.W = weight_dict[w_key].copy()
+    #         if b_key in weight_dict:
+    #             layer.b = weight_dict[b_key].copy()
+
     def set_weights(self, weight_dict):
-        for i, layer in enumerate(self.layers):
-            w_key = f"W{i}"
-            b_key = f"b{i}"
-            if w_key in weight_dict:
-                layer.W = weight_dict[w_key].copy()
-            if b_key in weight_dict:
-                layer.b = weight_dict[b_key].copy()
+        self.layers = []
+
+        i = 0
+        while f"W{i}" in weight_dict:
+            W = weight_dict[f"W{i}"]
+            b = weight_dict[f"b{i}"]
+
+            input_size, output_size = W.shape
+
+            layer = NeuralLayer(input_size, output_size, self.args.weight_init)
+            layer.W = W.copy()
+            layer.b = b.copy()
+
+            self.layers.append(layer)
+            i += 1
 
