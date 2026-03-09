@@ -1,14 +1,17 @@
 {
     "dataset": "mnist",
-    "epochs": 10,
+    "epochs": 5,
     "batch_size": 64,
-    "learning_rate": 0.001,
+    "learning_rate": 0.01,
     "optimizer": "rmsprop",
     "hidden_layers": [
         128,
         64,
-        32
+        32,
+        16
     ],
+    "num_layers": null,
+    "hidden_size": null,
     "num_neurons": 128,
     "activation": "relu",
     "loss": "cross_entropy",

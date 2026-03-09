@@ -98,10 +98,10 @@ class NeuralNetwork:
         - `grad_Ws[0]` is gradient for the last (output) layer weights,
           `grad_bs[0]` is gradient for the last layer biases, and so on.
         """
-        if self.args.loss == 'cross_entropy' :
-            dZ = y_pred - y_true
-        else :
-            dZ = self.loss_grad(y_true, y_pred)
+        # if self.args.loss == 'cross_entropy' :
+        #     dZ = y_pred - y_true
+        # else :
+        dZ = self.loss_grad(y_true, y_pred)
         
         
         for i in reversed(range(len(self.layers))) :
